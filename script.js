@@ -23,7 +23,7 @@ document.querySelector(".check").addEventListener("click", function () {
     // When guess is correct
   } else if (guess === secretNumber) {
     // document.querySelector('.message').textContent = 'Correct Number 🎊';
-    displayMessage(alert("Correct Number 🎊"));
+    displayMessage("Correct Number 🎊");
     document.querySelector(".number").style.width = "30rem";
     document.querySelector("body").style.backgroundColor = "#60b347";
     document.querySelector(".number").textContent = secretNumber;
